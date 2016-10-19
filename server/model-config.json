@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "any-session-user": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "therapist-user": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "list-of-clients": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "session": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "todo": {
+    "dataSource": "mongo",
+    "public": true
+  }
+}
