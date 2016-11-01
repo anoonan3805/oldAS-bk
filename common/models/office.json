@@ -1,0 +1,30 @@
+{
+  "name": "office",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "officeName": {
+      "type": "string",
+      "required": true
+    },
+     "buildingId": {
+      "type": "string",
+      "required": true
+    },
+     "openTime": {
+      "type": "date",
+      "required": true
+    },
+     "closeTime": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

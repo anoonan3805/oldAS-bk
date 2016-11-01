@@ -6,11 +6,11 @@
     "validateUpsert": true
   },
   "properties": {
-    "date": {
-      "type": "date",
+    "sessionInfo": {
+      "type": "object",
       "required": true
     },
-    "location": {
+    "officeId": {
       "type": "string",
       "required": true
     }

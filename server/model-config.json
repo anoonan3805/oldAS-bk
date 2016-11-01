@@ -51,5 +51,13 @@
   "todo": {
     "dataSource": "mongo",
     "public": true
+  },
+   "building": {
+    "dataSource": "mongo",
+    "public": true
+  },
+   "office": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
